@@ -1,6 +1,7 @@
 ### 1. Usage
 + Prepare the data:
-    - Download datasets [LEVIR](https://justchenhao.github.io/LEVIR/)
+    - Download datasets 
+    - [LEVIR](https://justchenhao.github.io/LEVIR/)
     - [BCDD](https://study.rsgis.whu.edu.cn/pages/download/building_dataset.html)
     - [SYSU](https://github.com/liumency/SYSU-CD)
     - Crop LEVIR and BCDD datasets into 256x256 patches. 
@@ -27,7 +28,6 @@
 + Prerequisites for Python:
     - Creating a virtual environment in the terminal: `conda create -n RCTNet python=3.8`
     - Installing necessary packages: `pip install -r requirements.txt `
-    - `cd rctnet/tools`
 + Evaluate pretrained models
     If you want to evaluate your trained model, you can run:
     - `sh test.sh`
