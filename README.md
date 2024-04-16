@@ -1,4 +1,12 @@
-### 1. Usage
+#RELATING CNN-TRANSFORMER FUSION NETWORK FOR REMOTE SENSING CHANGE DETECTION
+
+Network Architecture
+--------------------
+The architecture of our proposed model is as follows
+![network](network.png)
+
+How to use
+------------
 + Prepare the data:
     - Download datasets 
     - [LEVIR](https://justchenhao.github.io/LEVIR/)
@@ -34,5 +42,5 @@
 + Train your model
     You can re-train our modelby using:
     - `sh train.sh`
-
+![table](performance.png)
 
